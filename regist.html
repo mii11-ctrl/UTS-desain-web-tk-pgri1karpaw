@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <title>Pendaftaran | TK PGRI 1 Karangpawitan</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+  <body>
+  <header>
+      <div class="container">
+        <div class="logo-title">
+      <img src="images/logo.png" alt="Logo TK PGRI 1 Karangpawitan" class="logo">
+      <h1>TK PGRI 1 Karangpawitan</h1>
+      <nav>
+        <ul>
+          <li><a href="index.html">Beranda</a></li>
+          <li><a href="about.html">Profil Sekolah</a></li>
+          <li><a href="activities.html">Kegiatan</a></li>
+          <li><a href="regist.html" class="active">Pendaftaran</a></li>
+          <li><a href="contact.html">Kontak</a></li>
+        </ul>
+      </nav>
+      </div>
+    </header>
+
+    <section class="registration">
+      <div class="container">
+        <h2>Formulir Pendaftaran Siswa Baru</h2>
+        <p>Silahkan isi data calon peserta didik dengan lengkap dan benar.</p>
+        <form id="form-pendaftaran" action="#" method="post" novalidate>
+          <label for="nama">Nama Lengkap Anak:</label>
+          <input type="text" id="nama" name="nama" required>
+
+          <label for="ttl">Tempat, Tanggal Lahir:</label>
+          <input type="text" id="ttl" name="ttl" required>
+
+          <label for="alamat">Alamat:</label>
+          <textarea id="alamat" name="alamat" rows="3" required></textarea>
+
+          <label for="ortu">Nama Orang Tua/Wali:</label>
+          <input type="text" id="ortu" name="ortu" required>
+
+          <label for="nohp">Nomor HP:</label>
+          <input type="tel" id="nohp" name="nohp" required>
+
+          <button type="submit">Kirim Pendaftaran</button>
+        </form>
+      </div>
+    </section>
+
+     <footer>
+      <p>&copy; 2025 TK PGRI 1 Karangpawitan | Semua Hak Dilindungi</p>
+    </footer>
+    <script src="script.js"></script>
+ </body>
+ </html>
