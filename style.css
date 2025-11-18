@@ -788,13 +788,15 @@ footer {
 @media (max-width: 768px) {
   header .container {
     flex-direction: column;
-    align-items: flex-start;
+    align-items: center; 
   }
 
   nav ul {
-    flex-direction: column;
+    flex-direction: row;
+    flex-wrap: wrap;   
     gap: 10px;
     margin-left: 0;
+    justify-content: center;
   }
 
   .banner img {
@@ -815,6 +817,7 @@ footer {
   .about .container {
     width: 100%;
     padding: 20px;
+    margin-bottom: 30px;
   }
 
   form input,
@@ -824,5 +827,10 @@ footer {
 
   .comment-section {
     padding: 15px;
+  }
+
+  footer {
+    padding: 20px 0;
+    font-size: 13px;
   }
 }
