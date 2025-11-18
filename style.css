@@ -777,6 +777,14 @@ form button:hover {
   color: #2b2b6b;
 }
 
+footer {
+  background-color: #99b9ff;
+  text-align: center;
+  padding: 15px 0;
+  font-size: 14px;
+  color: #333;
+}
+
 @media (max-width: 768px) {
   header .container {
     flex-direction: column;
@@ -794,27 +802,19 @@ form button:hover {
     height: auto;
   }
 
-  .identitas-sekolah {
-    padding: 20px;
-  }
-
-  .about .container,
-  .registration .container,
-  .contact .container {
-    padding: 20px;
-    width: 100%;
-  }
-
   .guru-grid {
-    grid-template-columns: 1fr; /* guru tampil satu kolom di HP */
+    grid-template-columns: 1fr; 
   }
 
   .activity-grid {
-    grid-template-columns: 1fr; /* biar konsisten dengan activities */
+    grid-template-columns: 1fr;
   }
 
-  .contact-info {
-    font-size: 16px;
+  .registration .container,
+  .contact .container,
+  .about .container {
+    width: 100%;
+    padding: 20px;
   }
 
   form input,
@@ -825,12 +825,4 @@ form button:hover {
   .comment-section {
     padding: 15px;
   }
-}
-
-footer {
-  background-color: #99b9ff;
-  text-align: center;
-  padding: 15px 0;
-  font-size: 14px;
-  color: #333;
 }
