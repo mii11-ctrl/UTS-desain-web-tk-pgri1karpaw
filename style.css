@@ -788,6 +788,11 @@ form button:hover {
   color: #2b2b6b;
 }
 
+.activity-card:hover {
+  background-color: #e6f0ff;
+  cursor: pointer;
+}
+
 footer {
   background-color: #99b9ff;
   text-align: center;
